@@ -9,8 +9,8 @@ Library  SeleniumLibrary
 #---add your Variables-------
 
 *** Test Cases ***
-User must sign in to Cobra
-    [Documentation]  This is to login to Cobra Appin IE
+User must launch browser and hit amazon url
+    [Documentation]  This is to load Amazon website
     [Tags]  Smoke
     Open Browser  http://www.amazon.com   ie
     Sleep  5s
